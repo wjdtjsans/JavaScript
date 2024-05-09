@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>태조 이성계가 태어난 년도는?</p>
+<input type="text" id="answer">
+<button id="send-answer">제출</button>
+
+    <script>
+         var 정답 = 1335
+        document.querySelector('#send-answer').addEventListener('click',function(){
+            var a = document.getElementById('answer').value;
+            if(a == 정답){
+                alert('정답')
+            }else {
+                alert('멍청이')
+            }
+        })
+    // var 예금액 = 60000;
+    // var 미래예금액 = 0;
+    //        console.log(미래예금액)
+    //        if(예금액 >= 50000){
+    //         미래예금액 = 예금액 * 1.20 * 1.20 
+           
+    //        }else {
+    //         미래예금액 = 예금액 * 1.15 * 1.15 
+        
+    //        }
+    //        console.log(미래예금액)
+        // var first = 360;
+        // 총량 = first + first * 2 / 3 + first * 2 / 3 * 2 / 3
+        // console.log(총량)
+
+    </script>
+</body>
+</html>

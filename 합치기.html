@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var a = Number(prompt("객사"));
+         var b = Number(prompt("민법"));
+   
+        function 합격했냐(){
+            if(a > 100 || b > 100){
+                alert("100이상 숫자 넣지마세요")
+            }
+        else if(a < 40 && a+b >= 120)
+                alert("불합격")
+            else if(a+b >= 120)
+             {  alert('합격')
+        }
+        else if(a+b < 120){
+            alert('불합격')
+        }
+          }
+합격했냐(140)
+    </script>
+</body>
+</html>

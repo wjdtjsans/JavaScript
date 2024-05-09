@@ -1,0 +1,70 @@
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+.navbar-brand{
+  transition: all 1s;
+  font-size: 32px;
+}
+.alert-box{
+    background-color: skyblue;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    display: none;
+    
+}
+.test{
+  display: none;
+}
+.list-group{
+    visibility: hidden;
+    height: 0%;
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(-4%);
+}
+.show{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+    transform: translateY(0%);
+}
+ /*one-way UI 애니메이션 */
+.black-bg {
+    width : 100%;
+    height : 0%;
+    position : fixed;
+    background : rgba(0,0,0,0.5);
+    z-index : 5;
+    visibility: hidden; /*모습만 숨기는 dispaly보다 용이함*/
+    padding: 30px;
+    opacity: 0;
+    transition: all 1s;
+  }
+  .white-bg {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+  } 
+  .show-model{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+  }
+.dark{
+  background-color: black;
+  color: white;
+}
+.slide-container{
+  width: 300vw;
+  transition: all 1s;
+}
+.slide-box{
+  width: 100vw;
+  float: left;
+}
+.slide-box img{
+  width: 100%;
+}
